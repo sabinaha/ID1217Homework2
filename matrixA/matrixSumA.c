@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
   int min = INT_MAX;
 
   /* read command line args if any */
-  size = (argc > 1)? atoi(argv[1]) : MAXSIZE;
+  size = (argc > 1) ? atoi(argv[1]) : MAXSIZE;
   numWorkers = (argc > 2)? atoi(argv[2]) : MAXWORKERS;
   if (size > MAXSIZE) size = MAXSIZE;
   if (numWorkers > MAXWORKERS) numWorkers = MAXWORKERS;
