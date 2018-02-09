@@ -92,7 +92,6 @@ int main(int argc, char *argv[]) {
           }
         }
       }
-      if(omp_get_thread_num() == 0 && )
     }
     printf("I am: %d\n", omp_get_thread_num());
     printf("the total is %d\n", total);
